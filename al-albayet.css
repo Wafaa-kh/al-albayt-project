@@ -1,0 +1,121 @@
+.container {
+    position: relative;
+    text-align: center;
+    font-size:25px;
+    color: rgb(247, 249, 252);
+    margin-bottom: 10px;
+}
+.centered {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.cont2{
+    position:sticky;
+    background-color: rgb(117, 112, 112);
+    width:60%;
+    margin-left: 20%;
+    margin-right: 20%; 
+    height:8%;
+    box-shadow: 3px 3px 10px 2px gray;
+    padding:8px;
+    top:0;
+
+}
+.nav-rel a {
+  float: center;
+  color: #030303;
+  text-align:left;
+  padding: 8px 15px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Lobster', cursive;
+}
+
+.nav-rel a:hover{
+    background-color: rgb(243, 192, 218);
+    color: black;
+}
+hr{
+    width:99%;
+}
+.cont3, .cont4{
+    display:inline-block;
+    margin-block-start:1%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding:20px;
+    background-color: #f2f2f2;
+    width: 50%;
+    box-shadow: 3px 3px 10px 2px gray;
+    justify-content:right;
+}
+
+label{
+    display:inline-block;
+    padding: 1px 1px 7px 3px; 
+
+}
+input{
+    float:right;
+    padding:2px;
+    border-radius:6px;
+}
+
+.cont3 div img, .cont4 div img{
+    float: right;
+    padding-left:80px;
+    padding-top: 35px;
+    }
+.w{
+    float: left;
+}
+.cont5{
+    margin-block-start:1%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding:20px;
+    background-color: #f2f2f2;
+
+    width: 50%;
+    box-shadow: 3px 3px 10px 2px gray;
+    
+}
+.cont5 .skill{
+    column-count:3;
+    column-gap:30px;
+    column-rule:1px solid rgb(159, 161, 161);
+    font-size: 15px;
+    }
+.cont5 input{
+        float: left;
+        border-radius:20px;
+}
+.footer{
+    display:inline-block;
+    padding: 30px;
+    bottom: 0;
+    background-color: #666363;
+    color: rgba(219, 212, 212, 0.719);
+    text-align: center;
+    width:96%;
+    box-shadow: 3px 3px 10px 2px gray;
+}
+div a{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+div a span{
+   font-family: 'Dela Gothic One', cursive;
+   color:lawngreen;
+   font-size: 50px;
+   text-decoration: none;
+}
+div a:hover{
+  color:lawngreen;
+   
+}
